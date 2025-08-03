@@ -45,8 +45,12 @@ coverage/
 *.temp
 .tmp/
 
-# Docker関連（ローカル設定）
-docker-compose.override.yml
+# Docker関連
+Dockerfile
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+docker/
 
 # MCP設定（APIキーを含む可能性）
 mcp-config/
