@@ -49,7 +49,7 @@ services:
     environment:
       - POSTGRES_DB=yomikikase
       - POSTGRES_USER=yomikikase
-      - POSTGRES_PASSWORD=yomikikase_dev_password
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-changeme}
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
