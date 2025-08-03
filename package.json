@@ -1,0 +1,21 @@
+{
+  "name": "yomikikase",
+  "version": "1.0.0",
+  "description": "MCP対応開発環境",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "mcp:server": "node mcp-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mcp", "docker"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
